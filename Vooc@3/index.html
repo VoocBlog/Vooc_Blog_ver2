@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="background">
+		<div class="wrapper">
+			<div class="form">
+				<div id="login-form">
+	            	<img src="img/logo-vooc.png" class="logo-header">
+					<h1>Đăng nhập</h1>
+	            	<form class="form-cover">
+	                	<input class="type-input" type="email" name="email" placeholder="Email của bạn" class="input-email" />
+	                	<input class="type-input" type="password" name="password" placeholder="Mật khẩu" class="input-password" />
+	                	<button type="submit" class="btn-login">Đăng nhập</button>
+	            	</form>
+	            	<p><a href="" style="color: black; text-decoration: none;">Quên mật khẩu?</a></p>
+	            	<div class="space"></div>
+	            	<p>Chưa có tài khoản? <a href="#signup-form" onclick="show_create()">Đăng ký ngay</a></p>
+				</div>
+
+				<div id="signup-form">
+	            	<img src="img/logo-vooc.png" class="logo-header">
+					<h1>Đăng ký</h1>
+	            	<form class="form-cover">
+	                	<input class="type-input" type="text" name="username" placeholder="Họ tên" class="input-username" />
+	                	<select name="" class="style-select" >
+	                		<option value=""><span>Chọn giới tính</span></option>
+							<option value="Name">Nam</option>
+							<option value="Nữ">Nữ</option>
+						</select>	
+	                	<input class="type-input" type="email" name="email" placeholder="Email của bạn" class="input-email" />
+	                	<input class="type-input" type="password" name="password" placeholder="Mật khẩu" class="input-password" />
+	                	<!-- <p class="csbm"><input type="checkbox" class="checkbox">
+	                		Đồng ý với <a href="">Chính sách & bảo mật</a></p> -->
+	                	<input class="checkbox" type="checkbox" class="checkbox">
+	                		<span>Đồng ý với <a href="">Chính sách & bảo mật</a></span>
+	                	<button type="submit" class="btn-login">Đăng ký</button>
+	            	</form>
+	            	<p><a href="" style="color: black; text-decoration: none;">Quên mật khẩu?</a></p>
+	            	<div class="space"></div>
+	            	<p>Đã có tài khoản? <a href="#login-form" onclick="show_login()">Đăng nhập ngay</a></p>
+				</div>				
+			</div>
+		</div>
+	</div>
+	
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
