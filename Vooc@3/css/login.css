@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 /**/
+
+br {
+    margin: 10px 0 10px;
+}
 .wrapper {
     
     background-color: #fff;
@@ -86,6 +90,10 @@ body {
     color: #F3AC25;
 }
 
+.forget-pass {
+    color: black;
+    text-decoration: none;
+}
 /*.form span {
 
 }
@@ -119,7 +127,7 @@ body {
 }
 
 .form #signup-form{
-    display: none;
+    
 }
 
 .form #signup-form .checkbox {
